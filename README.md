@@ -1,3 +1,8 @@
+# Flightright Code Challenge 2
+Second cold assessment in Flightright Code Challenge
+
+you can find some details about my vision for the code and what I have did under the React app scripts description.
+#######################################################<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +71,24 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+###################################################################### <br>
+
+## Problem 2
+<br>
+Create a content editor with a simple page with a dropdown list. The list should consist of some markdown templates , which can be selected and rendered into a markdown preview and html preview. You are free to use any libraries for the markdown to html conversion.  
+<br>
+### Requirements 
+- This application can be built using any framework of your choice (preferable Ember/React) <br>
+- Code should be hosted on a github repository you can share with us (Github, Bitbucket...) <br>
+
+Note 
+- You can create your own markdown templates with simple examples.
+- The html preview may be rendered in two ways
+- it may look like html code preview, and rendered html itself.
+- Changing the text field in markdown preview may cause dynamic changes of converted html preview(s).
+ <br>
+### Brownie Points
+<br>
+- Application adheres to accessibility standards
+- The markdown includes placeholder tags, which would then be swapped withsome html snippet in the preview. 
