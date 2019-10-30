@@ -68,7 +68,7 @@ class App extends Component {
     	this.setState({value:md[e.target.textContent[e.target.textContent.length-1]-1]});
   
   
-}  
+	}  
   }
 
 
@@ -84,15 +84,21 @@ class App extends Component {
 
 					<div className="row">
 						<div className="col-md-4"></div>
-						 <DropdownList  className="col-md-4"  data={colors}  valueField='id' textField='name'  defaultValue={0}  onChange={this.handleChangeTemplate} />
+						 <DropdownList  className="col-md-4"  data={colors}  valueField='id' 
+						  textField='name'  defaultValue={0}  onChange={this.handleChangeTemplate} />
 						<div className="col-md-4"></div>
 					</div>
-{/* user interface composed of textarea editable on the left and HTML preview on the right*/}
+		
+		
+				{/* user interface composed of textarea editable on the left and HTML preview on the right*/}
 					<div className="row w-100 p-0" style={styles3}>
-						<div className="col"> 
+					<div className="col"> 
+		
          				<textarea value={this.state.value}  style={styles1} onChange={this.handleChange} />
        					</div>
-						<div className="col h-100 d-inline-block"> <Markdown markup={this.state.value} /></div>		
+					<div className="col h-100 d-inline-block"> 
+						<Markdown markup={this.state.value} />
+					</div>		
 					</div>
 				
 				</div>
